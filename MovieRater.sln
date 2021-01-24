@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieRater", "MovieRater\MovieRater.csproj", "{848D11F7-285E-45A4-B4AC-5C504EC7EC55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieRater.Tests", "MovieRater.Tests\MovieRater.Tests.csproj", "{D2626E2F-A8A5-440C-B8AE-A0BAC9534839}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{848D11F7-285E-45A4-B4AC-5C504EC7EC55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{848D11F7-285E-45A4-B4AC-5C504EC7EC55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{848D11F7-285E-45A4-B4AC-5C504EC7EC55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{848D11F7-285E-45A4-B4AC-5C504EC7EC55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2626E2F-A8A5-440C-B8AE-A0BAC9534839}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2626E2F-A8A5-440C-B8AE-A0BAC9534839}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2626E2F-A8A5-440C-B8AE-A0BAC9534839}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2626E2F-A8A5-440C-B8AE-A0BAC9534839}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FD027AC6-86DB-4D9E-AD1A-20CDF57F805C}
+	EndGlobalSection
+EndGlobal

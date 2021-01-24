@@ -1,0 +1,45 @@
+﻿@model IEnumerable<MovieRater.Models.MovieModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Star Wars Movies</h1>
+
+@*<p>
+    <a asp-action="Create">Create New</a>
+</p>*@
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.release_date)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.director)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.release_date)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.director)
+            </td>
+            <td>
+                <a asp-action="Details" asp-route-id="@item.episode_id">Details</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

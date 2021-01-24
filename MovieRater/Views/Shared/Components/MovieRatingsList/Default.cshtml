@@ -1,0 +1,33 @@
+﻿@model IEnumerable<MovieRater.Models.MovieRatingModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<p>
+    <a asp-action="AddRating">Add new rating</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Username)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Rating)
+            </th>            
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Username)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Rating)
+            </td>                   
+        </tr>
+}
+    </tbody>
+</table>
