@@ -10,7 +10,7 @@ namespace MovieRater.Models
     {
         public Guid Id { get; set; }
         public string Username { get; set; }
-        [Range(1, 10)]
+        [Range(0, 10)]
         public int Rating { get; set; }
         public int MovieId { get; set; }
     }
